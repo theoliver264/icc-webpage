@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="css/dropdown.css">
 </head>
 
 <body>
@@ -29,13 +30,47 @@
         </div>
       </a>
       <a class="black-text" href=" #">
-        <div class="col l2 navbar-btn">
-          Nosotros
+        <div class="col l2 navbar-btn dropdown">
+          <span>Nosotros</span>
+          <div class="drop-content">
+            <a href="#" class="black-text">
+              <div class="navbar-btn">
+                Principios
+              </div>
+            </a>
+            <a href="#" class="black-text">
+              <div class="navbar-btn">
+                Mision Estrategica
+              </div>
+            </a>
+            <a href="#" class="black-text">
+              <div class="navbar-btn">
+                Mision Institucional
+              </div>
+            </a>
+          </div>
         </div>
       </a>
-      <a class="black-text" href=" #">
-        <div class="col l2 navbar-btn">
-          Historia
+      <a class="black-text" href=" #!" data-target="dropdown1">
+        <div class="col l2 navbar-btn dropdown">
+          <span>Historia</span>
+          <div class="drop-content">
+            <a href="#" class="black-text">
+              <div class="navbar-btn">
+                Colegio
+              </div>
+            </a>
+            <a href="./historia/fundador.html" class="black-text">
+              <div class="navbar-btn">
+                Fundador
+              </div>
+            </a>
+            <a href="#" class="black-text">
+              <div class="navbar-btn">
+                Escudo
+              </div>
+            </a>
+          </div>
         </div>
       </a>
       <a class="black-text" href=" #">

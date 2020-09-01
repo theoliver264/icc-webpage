@@ -5,13 +5,23 @@
  *
  * Made By MaterializeCSS.com
  */
+ body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 @font-face {
-  font-family: DeVinne;
+  font-family: 'DeVinne';
   src: url(./fonts/tt1041m_.ttf);
 
 }
 @font-face{
-  font-family: CopperPlateG;
+  font-family: 'CopperPlateG';
   src: url(./fonts/COPRGTB.TTF);
 }
 
