@@ -16,82 +16,84 @@
 <body>
 
   <!--Navigation-->
-  <div class="white hide-on-med-and-down">
-    <div class="row container center" style="margin-bottom: 0px">
-      <div class="col l1"></div>
-      <a class="black-text" href="index.html">
-        <div class="col l2 navbar-btn">
-          Inicio
-        </div>
-      </a>
-      <a class="black-text" href=" #">
-        <div class="col l2 navbar-btn">
-          Oferta Educativa
-        </div>
-      </a>
-      <a class="black-text" href="#">
-        <div class="col l2 navbar-btn dropdown">
-          <span>Nosotros</span>
-          <div class="drop-content">
-            <a href="#" class="black-text">
-              <div class="navbar-btn">
-                Principios
-              </div>
-            </a>
-            <a href="#" class="black-text">
-              <div class="navbar-btn">
-                Mision Estrategica
-              </div>
-            </a>
-            <a href="#" class="black-text">
-              <div class="navbar-btn">
-                Mision Institucional
-              </div>
-            </a>
+  <header>
+    <div class="white hide-on-med-and-down">
+      <div class="row container center" style="margin-bottom: 0px">
+        <div class="col l1"></div>
+        <a class="black-text" href="index.html">
+          <div class="col l2 navbar-btn">
+            Inicio
           </div>
-        </div>
-      </a>
-      <a class="black-text" href=" #!" data-target="dropdown1">
-        <div class="col l2 navbar-btn dropdown">
-          <span>Historia</span>
-          <div class="drop-content">
-            <a href="./historia/colegio.html" class="black-text">
-              <div class="navbar-btn">
-                Colegio
-              </div>
-            </a>
-            <a href="./historia/fundador.html" class="black-text">
-              <div class="navbar-btn">
-                Fundador
-              </div>
-            </a>
-            <a href="./historia/escudo.html" class="black-text">
-              <div class="navbar-btn">
-                Escudo
-              </div>
-            </a>
+        </a>
+        <a class="black-text" href="#oferta">
+          <div class="col l2 navbar-btn">
+            Oferta Educativa
           </div>
-        </div>
-      </a>
-      <a class="black-text" href="#contacto">
-        <div class="col l2 navbar-btn">
-          Contacto
-        </div>
-      </a>
-      <div class="col l1"></div>
+        </a>
+        <a class="black-text" href="#">
+          <div class="col l2 navbar-btn dropdown">
+            <span>Nosotros</span>
+            <div class="drop-content">
+              <a href="./b.html" class="black-text">
+                <div class="navbar-btn">
+                  Principios
+                </div>
+              </a>
+              <a href="./b.html" class="black-text">
+                <div class="navbar-btn">
+                  Mision Estrategica
+                </div>
+              </a>
+              <a href="./b.html" class="black-text">
+                <div class="navbar-btn">
+                  Mision Institucional
+                </div>
+              </a>
+            </div>
+          </div>
+        </a>
+        <a class="black-text" href="#!" data-target="dropdown1">
+          <div class="col l2 navbar-btn dropdown">
+            <span>Historia</span>
+            <div class="drop-content">
+              <a href="./historia/colegio.html" class="black-text">
+                <div class="navbar-btn">
+                  Colegio
+                </div>
+              </a>
+              <a href="./historia/fundador.html" class="black-text">
+                <div class="navbar-btn">
+                  Fundador
+                </div>
+              </a>
+              <a href="./historia/escudo.html" class="black-text">
+                <div class="navbar-btn">
+                  Escudo
+                </div>
+              </a>
+            </div>
+          </div>
+        </a>
+        <a class="black-text" href="#contacto">
+          <div class="col l2 navbar-btn">
+            Contacto
+          </div>
+        </a>
+        <div class="col l1"></div>
+      </div>
     </div>
-  </div>
-  <nav class="indigo  hide-on-large-only " role="navigation">
-    <div class="container center-align">
-      <ul id="nav-mobile" class="sidenav">
-        <li><a class="" href="#">Inicio</a></li>
-        <li><a class="" href="#">Nosotros</a></li>
-        <li><a class="" href="#">Historia</a></li>
-        <li><a class="" href="#">Contacto</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+    <nav class="indigo  hide-on-large-only " role="navigation">
+      <div class="container center-align">
+        <ul id="nav-mobile" class="sidenav">
+          <li><a class="" href="#">Inicio</a></li>
+          <li><a class="" href="#">Nosotros</a></li>
+          <li><a class="" href="#">Historia</a></li>
+          <li><a class="" href="#">Contacto</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </header>
 
   <!--BANNER-->
   <div id="index-banner" class="parallax-container" style="background-color: rgba(255,255,255,0.3); ">
@@ -115,16 +117,18 @@
   </div>
 
   <!--Oferta Educativa-->
-  <div class="white" style="padding-bottom: 32px;">
+  <div id="oferta" class="white valign-wrapper" style="min-height: 500px; padding-bottom: 32px;">
     <div class="container">
       <h4 class="center-align">Oferta Educativa</h4>
+      <br>
+      <br>
       <div class="row">
         <div class="col l6 s12">
           <h5 class="center-align">Jardin de Niños</h5>
           <div class="container">
             <p>Lorem ipsum dolor sit amet consectetur zet adipisicing elit. Ea facere repudiandae id ratione.</p>
             <br>
-            <a class="waves-effect waves-light btn right indigo">Mas Información</a>
+            <a class="waves-effect waves-light btn right indigo" href="b.html">Mas Información</a>
           </div>
         </div>
         <div class="col l6 s12">
@@ -132,30 +136,7 @@
           <div class="container">
             <p>Lorem ipsum dolor sit amet consectetur zet adipisicing elit. Ea facere repudiandae id ratione.</p>
             <br>
-            <a class="waves-effect waves-light btn right indigo">Mas Información</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Fundador-->
-  <div class="grey darken-4 white-text">
-    <div class="container">
-      <div class="section">
-        <div class="row valign-wrapper">
-          <div class="col l4 s12">
-            <img src="./img/fundador.jpg" style="width: 100%; padding: 16px 16px 0px 16px" alt="Fundador" />
-            <p class="center-align">Pbro. J. Jesús Ursúa Estrada (1972-1932) <br>Sacerdote y fundador de nuestro
-              colegio.</p>
-          </div>
-          <div class="col l8 s12">
-            <h4 class="light icc-header">Sepan los amables educadores de la juventudad que su lema
-              es este: "Hacia la luz por medio del sacrificio"
-            </h4>
-            <h5 class="right icc-copper  white-text">
-              <a class="btn black" href="#">CONOCE SU HISTORIA</a>
-            </h5>
+            <a class="waves-effect waves-light btn right indigo" href="b.html">Mas Información</a>
           </div>
         </div>
       </div>
@@ -164,14 +145,14 @@
 
   <!--Second Parallax-->
   <div class="parallax-container valign-wrapper" style="height: 600px;">
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="./img/bg2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <!--Nosotros-->
-  <div class="white black-text">
-    <div class="container">
+  <div class="white black-text" style="min-height: 500px;">
+    <div class=" container">
       <div class="section">
-        <h3>Nosotros</h3>
+        <h3 style="padding-left: 16px;">Nosotros</h3>
         <br>
         <!--   Icon Section   -->
         <div class="row">
@@ -206,19 +187,47 @@
             </div>
           </div>
         </div>
+        <br>
         <div class="row">
-          <div class="col s12 offset-l10 l2">
-            <a href="#" class="btn">Ver Mas</a>
+          <div class="col s12 offset-l4 l4">
+            <div class="center">
+              <a href="b.html" class="btn center indigo">MAS Información</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="parallax-container valign-wrapper" style="height: 300px;">
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 2"></div>
+  <!--Fundador-->
+  <div class="grey darken-4 white-text">
+    <div class="container">
+      <div class="section">
+        <div class="row valign-wrapper">
+          <div class="col l4 s12">
+            <img src="./img/fundador.jpg" style="width: 100%; padding: 16px 16px 0px 16px" alt="Fundador" />
+            <p class="center-align">Pbro. J. Jesús Ursúa Estrada (1972-1932) <br>Sacerdote y fundador de nuestro
+              colegio.</p>
+          </div>
+          <div class="col l8 s12">
+            <h4 class="light icc-header">Sepan los amables educadores de la juventudad que su lema
+              es este: "Hacia la luz por medio del sacrificio"
+            </h4>
+            <h5 class="right icc-copper  white-text">
+              <a class="btn black" href="./historia/fundador.html">CONOCE SU HISTORIA</a>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!--Third Parallax-->
+  <div class="parallax-container valign-wrapper" style="height: 600px;">
+    <div class="parallax"><img src="./img/bg3.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <!--Contacto-->
   <div id="contacto">
     <div class="container row">
       <h3>Contacto</h3>
@@ -242,34 +251,31 @@
     </div>
   </div>
 
-  <footer class="page-footer indigo lighten-1">
+  <!--Footer-->
+  <footer class="page-footer grey darken-4">
     <div class="container">
       <div class="row">
         <div class="col l4 s12">
           <h5 class="">Oferta Educativa</h5>
-          <ul class="container">
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+          <ul>
+            <li><a class="white-text" href="../b.html">- Jardin de Niños</a></li>
+            <li><a class="white-text" href="../b.html">Escuela Primaria</a></li>
           </ul>
         </div>
         <div class="col l4 s12">
           <h5 class="white-text ">Nosotros</h5>
-          <ul class="container">
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+          <ul>
+            <li><a class="white-text" href="../b.html">- Principios</a></li>
+            <li><a class="white-text" href="../b.html">- Misión Estrategica</a></li>
+            <li><a class="white-text" href="../b.html">- Misión Institucional</a></li>
           </ul>
         </div>
-        <div class="col l4 s12">
+        <div class=" col l4 s12">
           <h5 class="white-text">Historia</h5>
-          <ul class="container">
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+          <ul>
+            <li><a class="white-text" href="./historia/fundador.html">- Nuestro Fundador</a></li>
+            <li><a class="white-text" href="./historia/colegio.html">- Colegio</a></li>
+            <li><a class="white-text" href="./historia/escudo.html">- Escudo</a></li>
           </ul>
         </div>
       </div>
