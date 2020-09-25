@@ -5,3 +5,8 @@
     right: 0px;
     margin: 0px 16px 16px 0px;
 }
+
+.history-bg{
+    background-image: url(../img/historybg.jpg); 
+    background-size: cover;
+}

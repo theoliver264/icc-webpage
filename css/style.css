@@ -101,3 +101,12 @@ footer.page-footer {
   border-style:none none none solid;
   border-color: black ;
 }
+
+.footer-link {
+  color: #D1DDFF;
+}
+
+.footer-link:hover{
+  color: white !important; 
+  font-weight: bold;
+}
